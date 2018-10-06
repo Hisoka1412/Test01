@@ -3,24 +3,54 @@
 <head>
 	<title>My Top 3</title>
 	<meta charset="utf-8">
+	<style type="text/css">
+		header{
+			border: 5px solid blue;
+			background-color: #2793e654;
+		}
+		h1{
+			color: white;
+			text-align: center;		
+		}
+		h1:hover{
+			color: red;
+		}
+		.content{text-align: center;}
+		.content ol,ul{
+			list-style-type: none;
+		}
+			.content1 {
+				height: 500px;width: 50%;float: left;
+			}
+			.content2 {
+			height: 500px;	width: 40%;float: left;
+			}
+			.content3 {
+				height: 300px;;width: 100%;	float: left;}
+				.content2>ol>li{
+					float: left;
+				}
+				.content2>ol>li:nth-child(3){margin-left: 122px;}
+	</style>
 </head>
 <body>
 	<header>
 		<h1>Top 3 Sở thích của tôi</h1>
 	</header>
+	<div class="content">
 		<ol>
 			<li>Đi Phượt</li>
 			<li>Thưởng thức</li>
 			<li>Game</li>
 		</ol>
-		<div>
+		<div class="content1">
 			<h2>1.Đi Phượt</h2>
 			<p>Cùng người Yêu đến những nơi đẹp!</p>
-			<div>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/5e7e_KZINA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<div style="text-align: center">
+				<iframe width="560" height="315"  src="https://www.youtube.com/embed/5e7e_KZINA4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 		</div>
-		<div>
+		<div class="content2">
 			<h2>2.Thưởng thức</h2>
 			<ol>
 				<li>
@@ -37,7 +67,7 @@
 						<li><img src="https://pinkulan.com/wp-content/uploads/2017/02/Thi%C3%AAn-%C4%91%C6%B0%E1%BB%9Dng-m%C3%B3n-ngon-quanh-khu-v%E1%BB%B1c-Mai-H%E1%BA%AFc-%C4%90%E1%BA%BF-Ph%E1%BB%91-Hu%E1%BA%BF-B%C3%A0-Tri%E1%BB%87u-1.jpg" width="200px" height="200px"></li>
 					</ul>
 				</li>
-				<li>
+				<li >
 					<ul>
 						<li>Ngắm</li>
 						<li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKFvYNam0u7EQk3wGMxzDtdb_2ame4zXQlHyjfy1XGf6GwAccI5A" width="200px" height="200px"></li>
@@ -46,10 +76,13 @@
 			</ol>
 
 		</div>
-		<div>
+		<div class="content3">
 			<h2>3.Game</h2>
 			<img src="https://channel.mediacdn.vn/thumb_w/640/prupload/156/2018/01/img20180126151213493.jpg" alt="Game free fire">
 		</div>
+	</div>
+		
+
 	<footer>
 		<p>Kết bạn với <a href="https://www.facebook.com/binh.ngo.735507" target="-blank">Tôi</a></p>
 		<p> <span style="color: red;">Binh</span> &copy CopyRight</p>
