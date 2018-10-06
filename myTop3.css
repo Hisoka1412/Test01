@@ -1,5 +1,5 @@
 body{background-color: #00ffff40;}
-.content{height: 560px;width: 80%;margin: 0 10%;background-image: url(../images/hobby1.png);box-shadow: 17px 15px 0px 0px #0000ff52;border-left: 5px outset #4bdc39;border-top: 5px outset #4bdc39;border-right: 2px outset;border-bottom: 2px outset;}
+.content{height: 560px;width: 80%;margin: 0 10%;background-image: url(images/hobby1.png);box-shadow: 17px 15px 0px 0px #0000ff52;border-left: 5px outset #4bdc39;border-top: 5px outset #4bdc39;border-right: 2px outset;border-bottom: 2px outset;}
 .content1{ width: 30%;height: 200px;float: left;margin: 60px 2% 20px 18%; }
 .content2{ width: 30%;height: 200px;float: left;margin: 60px 18% 20px 2%;}
 .content3{ width: 30%;height: 200px;float: left;margin-left: 20%;margin: 20px 2% 60px 18%;}
